@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/adapter7"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/charcoal_restauarant">
+    </ImageView>
+
+
+    <ImageView
+        android:id="@+id/adapter8"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="35dp"
+
+        android:layout_below="@+id/adapter7"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coral_station">
+    </ImageView>
+
+
+
+    <ImageView
+        android:id="@+id/adapter9"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/adapter8"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sun_dancer_cafe_restaurant" >
+    </ImageView>
+
+
+</RelativeLayout>
